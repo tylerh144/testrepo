@@ -14,7 +14,7 @@ public class SomeClass {
     }
 
     public void funMethod() {
-        for (int i = 0; i < Math.random()*100; i++) {
+        for (int i = 0; i < Math.random()*10*thing; i++) {
             System.out.println("fun");
         }
     }
