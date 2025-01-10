@@ -12,4 +12,10 @@ public class SomeClass {
     public void hello() {
         System.out.println("hello, what's up");
     }
+
+    public void funMethod() {
+        for (int i = 0; i < Math.random()*100; i++) {
+            System.out.println("fun");
+        }
+    }
 }
